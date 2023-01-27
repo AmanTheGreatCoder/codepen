@@ -1,0 +1,25 @@
+.titleBar {
+  color: #fff;
+  background-color: #272c35;
+
+  span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 1rem;
+  }
+}
+
+.editor {
+  width: 100%;
+  background-color: #272c35;
+  margin: 0 5px;
+}
+
+.editor:first-child {
+  margin-left: 0;
+}
+
+.editor:last-child {
+  margin-right: 0;
+}
